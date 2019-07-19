@@ -1,12 +1,19 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import styled from 'styled-components';
 
+const Cards = styled.div`
+  width: 300px;
+  background: rgba(0,0,0,.5);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
 
+`
 
 
 export const Card = (props) => {
     return (
-      <div>
+      <Cards>
         <h2>{props.name}</h2>
         <p>Height: {props.height}</p>
         <p>Mass: {props.mass}</p>
@@ -15,6 +22,6 @@ export const Card = (props) => {
         <p>Gender: {props.gender}</p>
         <p>Birth Year: {props.birth_year}</p>
         
-      </div>
+      </Cards>
     );
   };

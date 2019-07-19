@@ -2,6 +2,16 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Card } from './appcard'
+import styled from 'styled-components';
+
+const AllCards = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+
+`
+
+
 
 
 export const GetData = () =>{
@@ -28,7 +38,7 @@ export const GetData = () =>{
     } else {
 
     return (
-        <div className="cards">
+        <AllCards>
             {
                 peopleData.map(person => {
                     return (
@@ -41,7 +51,7 @@ export const GetData = () =>{
             }
 
 
-        </div>
+        </AllCards>
     )
     
 }

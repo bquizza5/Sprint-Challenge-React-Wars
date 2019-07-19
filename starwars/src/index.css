@@ -6,13 +6,13 @@ body {
   background-size: cover;
 }
 
-.cards {
+/* .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around
-}
+} */
 
-.cards div {
+/* .cards div {
   width: 300px;
   background: rgba(0,0,0,.5);
   border-radius: 15px;
@@ -20,4 +20,4 @@ body {
   color: white;
 
   
-}
+} */
