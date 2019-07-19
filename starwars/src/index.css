@@ -5,3 +5,19 @@ body {
   background-image: url('./sw-bg.jpg');
   background-size: cover;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+
+.cards div {
+  width: 300px;
+  background: rgba(0,0,0,.5);
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
+
+  
+}

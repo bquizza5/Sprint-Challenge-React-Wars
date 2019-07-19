@@ -28,7 +28,7 @@ export const GetData = () =>{
     } else {
 
     return (
-        <div>
+        <div className="cards">
             {
                 peopleData.map(person => {
                     return (
